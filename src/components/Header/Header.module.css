@@ -1,0 +1,57 @@
+body{
+    font-family: LetteraTextLL;
+}
+
+.placeCenter{
+    place-items: center;
+}
+
+a{
+    font-weight:bold;
+    font-size: 1 rem;
+    line-height: 1.5;
+    color:#767676; 
+}
+
+.font24{
+    font-weight:bold;
+    font-size: 1 rem;
+    line-height: 1.5;
+    color:#767676;
+}
+
+.fontPink{
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #f6f;
+}
+
+.pink{
+    color: #f6f;
+}
+
+.arrow{
+    height:12px;
+    width:12px;
+    margin:5px;
+}
+
+button{
+    height: 2.75rem;
+    width: 8rem;
+    background: none;
+    border-radius: 0.625rem;
+    font-weight: bold;
+}
+
+.outline{
+    border: 3px solid #4643ee;
+    color: #4643ee;
+}
+
+.backgroundBtn{
+    border: 3px solid #4643ee;
+    background:#4643ee ;
+    color: white;
+}
