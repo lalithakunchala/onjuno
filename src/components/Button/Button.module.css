@@ -1,0 +1,17 @@
+.backgroundBtn{
+    border: 3px solid #4643ee;
+    background:#4643ee ;
+    color: white;
+    font-size: large;
+}
+
+@media only screen and (max-width: 600px) {
+    .backgroundBtn{
+        border: 3px solid #4643ee;
+        background:#4643ee ;
+        color: white;
+        font-size: small;
+        width:80px;
+    }
+
+  } 

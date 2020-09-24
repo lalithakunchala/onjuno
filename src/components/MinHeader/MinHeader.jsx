@@ -19,7 +19,7 @@ export class MinHeader extends Component {
     render() {
         return (
             <div className="sticky-top p-2">
-               <nav style={{maxWidth:'1450px',margin:'auto'}}>
+               <nav style={{maxWidth:'80%',margin:'auto'}}>
                        <div className="row m-3">
                             {/* <div className="col-12 ">
                                 <div className="row"> */}
@@ -31,7 +31,7 @@ export class MinHeader extends Component {
                                         <div className={styles.line}></div>
                                     </div>
                                     
-                                    <div className={this.state.click?styles.hide:""}>
+                                    <div className={!this.state.click?styles.hide:""}>
                                         
                                     <div className="col-12 ">
                                     <div className="col-12 pt-2 d-flex"><span className={styles.font24}>Home</span></div>

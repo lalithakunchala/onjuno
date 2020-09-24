@@ -1,0 +1,171 @@
+img{
+    width:100%;
+}
+
+.center{
+    place-items: center;
+}
+
+.mostPower{
+    font-size: 5rem;
+    line-height: 1.2;
+    font-family: TiemposHeadline;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    color: #030200;
+    padding-top : 150px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.subText{
+    font-family: LetteraTextLL;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #767676;
+    line-height: 1.8;
+    margin-top: 1.8rem;
+    letter-spacing: 2;
+    text-align: left;
+     margin-left: 150px;
+}
+
+.bordr{
+    border:1px solid lightgrey;
+    height:120px;
+    border-radius: 1rem;
+   
+}
+.msg{
+    height:50px;
+    width:50px;
+    padding:5px;
+}
+
+.msg img{
+    width:100%;
+    
+}
+
+.msg1{
+    height:50px;
+    width:50px;
+    padding:5px;
+}
+
+.msg1 img{
+    width:100%;
+    
+}
+
+input{
+    border: none;
+    float: left;
+}
+
+.fontS{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .mostPower{
+        font-size: 3rem;
+        line-height: 1.2;
+        font-family: TiemposHeadline;
+        font-family: 'Merriweather', serif;
+        font-weight: 500;
+        color: #030200;
+        padding-top : 150px;
+        
+    }
+
+    .subText{
+        font-family: LetteraTextLL;
+        font-weight: 500;
+        font-size: 1rem;
+        color: #767676;
+        line-height: 1.8;
+        margin-top: 1.8rem;
+        letter-spacing: 2;
+        text-align: left;
+         
+    }
+
+    .msg{
+        display: block;
+    }
+
+    .fontS{
+        font-size: large;
+    }
+
+    h4{
+        font-size: large;
+    }
+    
+  } 
+
+
+
+  /* @media only screen and (min-width: 200px) {
+
+    .mostPower{
+        
+        margin-left: 15px;
+        font-size: 36px;
+        margin-top: 10px;
+        padding-top: 30px;
+    }
+    
+    .subText{
+        
+         margin-left: 15px;
+    }
+    
+    h4{
+        font-size: medium;
+        padding-left: 15px;
+    }
+
+    .msg{
+        display: none;
+    }
+    
+    .fontS{
+        font-size: medium;
+    }
+  } */
+
+  /* @media only screen and (min-width: 600px) {
+    .msg{
+        display: block;
+    }
+    .mostPower{
+        
+        margin-left: 15px;
+        font-size: 36px;
+        margin-top: 10px;
+        padding-top: 30px;
+    }
+    
+    .subText{
+        
+         margin-left: 15px;
+    }
+    
+    h4{
+        font-size: medium;
+        padding-left: 15px;
+    }
+
+    .msg{
+        display: none;
+    }
+    
+    .fontS{
+        font-size: medium;
+    }
+
+    }
+
+     */
