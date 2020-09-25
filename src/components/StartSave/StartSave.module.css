@@ -45,7 +45,7 @@
     }
 
     .mainMargin{
-        margin:40px;
+        margin:50px;
     }
 
     .subText{
@@ -58,5 +58,36 @@
         letter-spacing: 2;
         text-align: left;
     }
+
+  } 
+
+  @media only screen and (max-width: 600px) {
+    .mostPower{
+        font-size: 2rem;
+        line-height: 1.2;
+        font-family: TiemposHeadline;
+        font-family: 'Merriweather', serif;
+        font-weight: 500;
+        color: #030200;
+        padding-top : 15px;
+        margin-left: 0px;
+    }
+
+    .subText{
+        font-family: LetteraTextLL;
+        font-weight: 500;
+        font-size: 1.04rem;
+        color: #767676;
+        line-height: 1.8;
+        margin-top: 1.8rem;
+        letter-spacing: 2;
+        text-align: left;
+         margin-left: 0px;
+    }
+
+    .mainMargin{
+        margin:20px;
+    }
+
 
   } 

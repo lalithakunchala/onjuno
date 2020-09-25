@@ -6,6 +6,7 @@ import Header from '../Header/Header'
 import CenterEmail from '../CenterEmail/CenterEmail'
 import Backed from '../Backed/Backed'
 import StartSave from '../StartSave/StartSave'
+import Card from '../Card/Card'
 
 export class Home extends Component {
     render() {
@@ -26,6 +27,7 @@ export class Home extends Component {
                 <div>
                     <StartSave />
                 </div>
+                <Card />
             </div>
         )
     }

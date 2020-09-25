@@ -18,6 +18,14 @@ export class StartSave extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="row mt-5">
+                    <div className="col-12 ">
+                        <h2 style={{textAlign:"center"}}className={styles.mostPower}>Sign up early to save more </h2>
+                    </div>
+                    <div className="w-75 m-auto">
+                        <p style={{textAlign:"center"}} className={styles.subText}>Depending on the level of your checking account, you’ll earn between<br/> 1.15%3 to 2.15%1 bonus rate. </p>
+                    </div>
+                </div>
             </div>
         )
     }
