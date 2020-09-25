@@ -44,10 +44,10 @@ export class Card extends Component {
         return (
                 <div>
                     <div className={styles.options}>
-                    <div className="d-flex mb-sm-5 pb-sm-5 pb-md-3 w-75 m-auto">
-                    <div onClick={this.handle} id="metal" className="mr-3 h3">METAL</div>
-                    <div onClick={this.handle} id="premium" className="mr-3 h3">PREMIUM</div>
-                    <div onClick={this.handle} id="basic" className=" h3">BASIC</div>
+                    <div className={styles.option}>
+                    <div className={this.state.metal?`${styles.colr}`:`${styles.colrr}`} onClick={this.handle} id="metal" >METAL</div>
+                    <div className={this.state.premium?`${styles.colr}`:`${styles.colrr}`} onClick={this.handle} id="premium" >PREMIUM</div>
+                    <div className={this.state.basic?`${styles.colr}`:`${styles.colrr}`} onClick={this.handle} id="basic" >BASIC</div>
                     </div>
                     </div>
                 <div  className={styles.container1}>

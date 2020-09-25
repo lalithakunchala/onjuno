@@ -9,7 +9,7 @@ export class CenterEmail extends Component {
         return (
             <div>
                 <div className="container-fluid">
-                    <div className="row ml-4">
+                    <div className="row ml-4 mt-5">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 ">
                             <div><h1 className={styles.mostPower}>The Most Powerful<br/> Checking Account </h1></div>
                             <div><h2 className={styles.subText}>Our checking account gives you higher returns<br/>than a savings account with no hidden fees.</h2></div>
@@ -51,8 +51,8 @@ export class CenterEmail extends Component {
                                         </div>
                                     </div>
                                     </div>
-                        <div className="col-12 col-sm-12 col-md-12 col-lg-6 mt-5">
-                            <img src="https://i.imgur.com/mIyLXx0.png" alt="image" />
+                        <div  className="col-12 col-sm-12 col-md-12 col-lg-6 mt-5">
+                            <img  src="https://i.imgur.com/mIyLXx0.png" alt="image" />
                         </div>
                     </div>
                 </div>

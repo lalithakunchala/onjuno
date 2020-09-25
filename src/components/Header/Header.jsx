@@ -5,12 +5,12 @@ import styles from './Header.module.css'
 export class Header extends Component {
     render() {
         return (
-            <div className="sticky-top p-1">
+            <div style={{background:"white"}} className="fixed-top p-1">
                <nav style={{maxWidth:'1650px',margin:'auto'}}>
                        <div className="row m-3 ml-0">
                             <div className="col-7 ">
                                 <div className="row">
-                                    <div className="col-4"><img alt="OnJuno Logo" className="img img-fluid" src="https://juno-public.s3-us-west-1.amazonaws.com/on-juno.png" /></div>
+                                    <div className="col-4"><img style={{height:"60px",width:"220px",opacity:"1"}} alt="OnJuno Logo" src="https://juno-public.s3-us-west-1.amazonaws.com/on-juno.png" /></div>
                                     <div className="col-2 pt-4"><span className={styles.fontPink}>Home</span></div>
                                     <div className="col-2 pt-4" id="dropdownMenuButton1" data-toggle="dropdown"><span className={styles.font24}>Company</span><img className={styles.arrow}  src="https://www.flaticon.com/svg/static/icons/svg/25/25623.svg"/></div>
                                     <div class="dropdown-menu shadow" aria-labelledby="dropdownMenuButton1">

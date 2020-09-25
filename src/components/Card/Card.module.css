@@ -165,8 +165,29 @@
     
   }
 
-  
+  .option{
+    width:90%;
+    padding:10%;
+    display : flex;
+    margin:auto;
+  }
 
+  .option div{
+    margin-right: 20px;
+    font-size: 20px;
+  }
+
+  .colr{
+    margin-right: 10%;
+    font-size: medium;
+    color: blue;
+    text-decoration: underline;
+  }
+
+  .colrr{
+    margin-right: 10%;
+    font-size: medium;
+  }
 
   @media only screen and (min-width: 1200px) {
     .container1{
