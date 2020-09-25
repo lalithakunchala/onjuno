@@ -1,0 +1,13 @@
+.main{
+font-size: 1.5rem;
+line-height: 1.44;
+letter-spacing: .25rem;
+font-family: LetteraTextLL;
+font-weight: 700;
+padding:50px;
+}
+
+.imght{
+    max-height: 90px;
+    width:80%;
+}

@@ -36,9 +36,19 @@ export class CenterEmail extends Component {
                                         </div>
                                         </div>
                                     </div>
-                                    <div className="col-12">
-                                        <div></div>
-                                        <div></div>
+                                    <div className="col-12 mt-3">
+                                        <div className="row mt-5">
+                                        <div className=" col-5 col-sm-3 offset-0  col-md-4 offset-2 col-lg-3">
+                                            <div>
+                                            <img className={styles.imght} src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/googleplay%403x.png" alt="goole" />
+                                            </div> 
+                                        </div>
+                                        <div className="col-5 col-sm-3 col-md-4 col-lg-3">
+                                        <div >
+                                            <img className={styles.imght}src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/applepay%403x.png" alt ="Apple" />
+                                        </div>
+                                        </div>
+                                        </div>
                                     </div>
                                     </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 mt-5">

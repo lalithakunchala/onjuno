@@ -4,6 +4,8 @@ import styles from './Home.module.css'
 import MinHeader from '../MinHeader/MinHeader'
 import Header from '../Header/Header'
 import CenterEmail from '../CenterEmail/CenterEmail'
+import Backed from '../Backed/Backed'
+import StartSave from '../StartSave/StartSave'
 
 export class Home extends Component {
     render() {
@@ -17,6 +19,12 @@ export class Home extends Component {
                 </div>
                 <div>
                 <CenterEmail />
+                </div>
+                <div>
+                    <Backed />
+                </div>
+                <div>
+                    <StartSave />
                 </div>
             </div>
         )
